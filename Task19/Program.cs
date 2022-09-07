@@ -6,6 +6,7 @@
 
 // 23432 -> да
 
+// Работает как для положительных, так и для отрицательных чисел.
 
 Console.WriteLine("Введите пятизначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
