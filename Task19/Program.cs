@@ -19,6 +19,10 @@ if(-99999 < number & number < -9999 | number > 9999 & number < 99999)
     {
     Console.WriteLine("Да.");
     }
+    else
+    {
+      Console.WriteLine("Нет.");  
+    }
   }
   else
   {
