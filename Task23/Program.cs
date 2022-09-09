@@ -20,7 +20,10 @@ if(number <= 0)
 
 while(count <= number)
 {
-//   Console.Write($"Кубический корень от числа {count}: "); 
-  Console.Write(Math.Pow(count, 3)); 
+    // Хотел сначала вывести резульат так:
+//   Console.WriteLine($"Кубический корень от числа {count}: "); 
+//  Console.Write(Math.Pow(count, 3));   Но потом решил вывести, как в условии задачи.
+  Console.Write(Math.Pow(count, 3));  
   count = count +1;
+  Console.Write(" ");
 }
